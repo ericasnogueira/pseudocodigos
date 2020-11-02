@@ -1,0 +1,10 @@
+Var
+ NUM : inteiro
+Inicio
+escreval(" informe o numero desejado:  ")
+  leia (NUM)
+ se (NUM >= 20) entao
+ escreval (" maior que 20")
+fimse
+
+Fimalgoritmo
