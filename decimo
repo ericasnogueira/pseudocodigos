@@ -1,0 +1,29 @@
+Var
+    saldo, credi: real
+Inicio
+ escreval (" Digite o saldo : ")
+ leia(saldo)
+
+ se (saldo <= 500)entao
+ escreval("SALDO " , saldo)
+ escreval("NENHUM CREDITO")
+ senao
+ se (saldo <=1000)entao
+ credi <-saldo *30
+ escreval( " SALDO E :",saldo)
+ escreval(" CREDITO DISPONIVEL E DE : ", credi)
+ senao
+ se (saldo <=3000)entao
+ credi <-saldo *0.40
+ escreval( " SALDO E :",saldo)
+ escreval(" CREDITO DISPONIVEL E DE : ", credi)
+ senao
+ se( saldo <=3001)entao
+ credi <-saldo *0.50
+ escreval( " SALDO E :",saldo)
+ escreval(" CREDITO DISPONIVEL E DE : ", credi)
+ fimse
+ fimse
+ fimse
+ fimse
+Fimalgoritmo
