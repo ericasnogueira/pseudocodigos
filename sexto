@@ -1,0 +1,54 @@
+Var
+DESTINO ,TRECHO :inteiro
+Inicio
+ escreval (" DIGITE O DESTINO DE ACORDO COM A TABELA ")
+escreval ("1- REGIAO NORTE , 2- REGIAO NORDESRE")
+escreval("3- REGIAO CENTRO-OESTE, 4-REGIAO SUL")
+leia(DESTINO)
+escreval(" INFORME O TRECHO : 1- IDA  OU 2- IDA  E VOLTA")
+leia(TRECHO)
+ se (DESTINO =1) entao
+    se( TRECHO = 1 ) entao
+escreval(" REGIAO NORTE SOMENTE IDA = 500,00")
+senao
+se ( DESTINO = 1) entao
+ se( TRECHO =2 ) entao
+escreval(" REGIAO NORTE  IDA E VOLTA = 900,00")
+fimse
+fimse
+fimse
+fimse
+se (DESTINO = 2) entao
+   se (TRECHO=1) entao
+escreval(" REGIAO NORDESTE SOMENTE IDA =350,00")
+senao
+     se (DESTINO =2) entao
+        se (TRECHO=2) entao
+escreval("REGIAO NORDESTE IDA E VOLTA =650,00")
+fimse
+fimse
+fimse
+fimse
+se (DESTINO= 3) entao
+   se (TRECHO=1) entao
+escreval("REGIAO CENTRO-OESTE SOMENTE IDA =350,00")
+senao
+     se (DESTINHO =3) entao
+        se (TRECHO= 2)entao
+escreval("REGIAO CENTRO-OESTE IDA E VOLTA =600")
+fimse
+fimse
+fimse
+fimse
+se (DESTINO=4 )entao
+   se (TRECHO=1) entao
+escreval("REGIAO SUL SOMENTE IDA = 300,00")
+senao
+     se(DESTINO= 4 )entao
+                 se (TRECHO =2) entao
+escreval(" REGIAO SUL IDA E VOLTA = 550,00")
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
