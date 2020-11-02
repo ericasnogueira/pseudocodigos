@@ -1,0 +1,34 @@
+Var
+  cargo :inteiro
+  salatual, reajuste :real
+
+Inicio
+ escreval("Digite o cargo do funcionario : " )
+ leia(cargo)
+ escreval(" Digite o salario atual : ")
+ leia(salatual)
+
+ se (cargo =1) entao
+  reajuste <- (salatual*7)/100
+  escreval(" o reajuste foi de : " , reajuste)
+   escreval(" o novo salario e de : " , salatual + reajuste)
+  senao
+  se (cargo =2) entao
+  reajuste <-(salatual*9)/100
+  escreval(" o reajuste foi de : " , reajuste)
+   escreval(" o novo salario e de : " , salatual + reajuste)
+  senao
+  se (cargo =3)entao
+  reajuste <-(salatual *5)/100
+  escreval(" o reajuste foi de : " , reajuste)
+   escreval(" o novo salario e de : " , salatual + reajuste)
+  senao
+  se (cargo= 4)entao
+  reajuste <-(salatual *12)/100
+   escreval(" o reajuste foi de : " , reajuste)
+   escreval(" o novo salario e de : " , salatual + reajuste)
+   fimse
+   fimse
+   fimse
+   fimse
+Fimalgoritmo
