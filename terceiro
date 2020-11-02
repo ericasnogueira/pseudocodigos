@@ -1,0 +1,15 @@
+Var
+NUM , RES :inteiro
+Inicio
+     escreval (" Digite o numero : ")
+ leia(NUM)
+  se ( NUM>= 20) entao
+    RES <- NUM * 2
+    escreval(" O resultado e : " , RES)
+    senao
+    se (NUM <=20) entao
+    RES <-NUM*4
+    escreval (" O resultado e " , RES)
+  fimse
+  fimse
+Fimalgoritmo
