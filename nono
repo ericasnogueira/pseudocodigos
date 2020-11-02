@@ -1,0 +1,39 @@
+Var
+mes : inteiro
+
+Inicio
+escreval("TABELA DOS MESES :1-JAN, 2-FEV,3-MAR,4-ABR,5-MAI,6-JUN,7-JUL,8-AGO")
+escreval("9-SET,10-OUT, 11-NOV,12-DEZ")
+escreval(" digite  mes: ")
+leia(mes)
+
+ escolha mes
+ caso 1
+         escreval(" mes escolhido foi janeiro")
+ caso 2
+         escreval(" mes escolhido foi fevereiro")
+ caso 3
+         escreval(" mes escolhido foi marco")
+ caso 4
+         escreval(" mes escolhido foi abril")
+ caso 5
+         escreval(" mes escolhido foi maio")
+ caso 6
+         escreval(" mes escolhido foi junho")
+ caso 7
+         escreval(" mes escolhido foi julho")
+ caso 8
+         escreval(" mes escolhido foi agosto")
+ caso 9
+        escreval(" mes escolhido foi setembro")
+ caso 10
+         escreval(" mes escolhido foi outubro")
+ caso 11
+         escreval(" mes escolhido foi novembro")
+ caso 12
+         escreval(" mes escolhido foi dezembro")
+ outrocaso
+         escreva(" mes nao existe")
+         fimescolha
+
+Fimalgoritmo
