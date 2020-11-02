@@ -1,0 +1,18 @@
+Var
+n1, n2, ADI : inteiro
+Inicio
+ escreval (" DIGITE UM NUMERO : ")
+leia (n1)
+ escreval ("DIGITE OUTRO NUMERO : ")
+leia(n2)
+ADI <-n1+ n2
+se (ADI>=20)entao
+ADI <-(n1+n2)+8
+escreval("O resultado foi : ", ADI)
+senao
+se (ADI<=19)entao
+  ADI<-(n1+n2) - 5
+  escreval(" O resultado foi : ",ADI)
+fimse
+fimse
+Fimalgoritmo
